@@ -15,48 +15,55 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Satisfy' }
     ],
     script: [
       {
         type: 'module',
-        src: '/assets/js/jquery.min.js'
+        src: '/js/jquery.min.js'
       },
       {
         type: 'module',
-        src: '@/assets/js/jquery.easing.1.3.js'
+        src: '/js/jquery.easing.1.3.js'
       },
       {
         type: 'module',
-        src: '@/assets/js/bootstrap.min.js'
+        src: '/js/bootstrap.min.js'
       },
       {
         type: 'module',
-        src: '@/assets/js/jquery.waypoints.min.js'
+        src: '/js/jquery.waypoints.min.js'
       },
       {
         type: 'module',
-        src: '@/assets/js/jquery.stellar.min.js'
+        src: '/js/jquery.stellar.min.js'
       },
       {
         type: 'module',
-        src: '@/assets/js/jquery.flexslider-min.js'
+        src: '/js/jquery.flexslider-min.js'
       },
       {
         type: 'module',
-        src: '@/assets/js/main.js'
+        src: '/js/main.js'
+      },
+      {
+        type: 'module',
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-178298675-1'
       }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/style.css',
+    // '@/assets/css/style.css',
     '@/assets/css/bootstrap.css',
     '@/assets/css/bootstrap-datetimepicker.min.css',
     '@/assets/css/flexslider.css',
-    '@/assets/css/icomoon.css'
-    // '@/assets/css/style.scss'
+    '@/assets/css/icomoon.css',
+    '@/assets/css/style.scss'
+
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

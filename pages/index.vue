@@ -1,10 +1,10 @@
 <template>
-  <layout />
+  <about />
 </template>
 
 <script>
-import Layout from '../components/Layout'
+import about from '../components/About'
 export default {
-  components: { Layout }
+  components: { about }
 }
 </script>
