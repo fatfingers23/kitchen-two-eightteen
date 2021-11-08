@@ -1,7 +1,5 @@
 <template>
   <div id="page">
-    <div class="fh5co-loader" />
-
     <nav class="fh5co-nav" role="navigation">
       <!-- <div class="top-menu"> -->
       <div class="container">
@@ -32,17 +30,17 @@
                   The Dream
                 </NuxtLink>
               </li>
-              <li class="has-dropdown">
-                <a href="gallery.html">Gallery</a>
-                <ul class="dropdown">
-                  <li><a href="#">Events</a></li>ww
-                  <li><a href="#">Food</a></li>
-                  <li><a href="#">Coffees</a></li>
-                </ul>
-              </li>
+              <!--              <li class="has-dropdown">-->
+              <!--                <a href="gallery.html">Gallery</a>-->
+              <!--                <ul class="dropdown">-->
+              <!--                  <li><a href="#">Events</a></li>ww-->
+              <!--                  <li><a href="#">Food</a></li>-->
+              <!--                  <li><a href="#">Coffees</a></li>-->
+              <!--                </ul>-->
+              <!--              </li>-->
 
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <!--              <li><a href="about.html">About</a></li>-->
+              <!--              <li><a href="contact.html">Contact</a></li>-->
             </ul>
           </div>
         </div>
@@ -119,6 +117,9 @@ export default {
   name: 'Default',
   data () {
     return { layoutText, settings }
+  },
+  mounted () {
+    window.pageStart()
   }
 
 }
