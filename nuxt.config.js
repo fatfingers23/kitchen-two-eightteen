@@ -1,8 +1,10 @@
+const base = '/kitchen-two-eightteen/';
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: '/kitchen-two-eightteen/'
+    base
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -24,31 +26,31 @@ export default {
     script: [
       {
         type: 'module',
-        src: '/js/jquery.min.js'
+        src: `${base}js/jquery.min.js`
       },
       {
         type: 'module',
-        src: '/js/jquery.easing.1.3.js'
+        src: `${base}js/jquery.easing.1.3.js`
       },
       {
         type: 'module',
-        src: '/js/bootstrap.min.js'
+        src: `${base}js/bootstrap.min.js`
       },
       {
         type: 'module',
-        src: '/js/jquery.waypoints.min.js'
+        src: `${base}js/jquery.waypoints.min.js`
       },
       {
         type: 'module',
-        src: '/js/jquery.stellar.min.js'
+        src: `${base}js/jquery.stellar.min.js`
       },
       {
         type: 'module',
-        src: '/js/jquery.flexslider-min.js'
+        src: `${base}js/jquery.flexslider-min.js`
       },
       {
         type: 'module',
-        src: '/js/main.js'
+        src: `${base}js/main.js`
       },
       {
         type: 'module',
